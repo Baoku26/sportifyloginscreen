@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100&family=Source+Code+Pro&family=Space+Mono:wght@700&family=Tajawal&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Tajawal', sans-serif; */
 }
 
 #logo{
@@ -33,7 +43,7 @@
     /* outline: 1px black solid; */
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 1em;
     padding: .2em 0;
     border-bottom: 2px rgba(20, 191, 86, 0) solid;
 }
@@ -61,7 +71,7 @@ form input{
 
 form input::placeholder{
     color: rgba(96, 129, 96, 0.534);
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .checkbox{
@@ -72,7 +82,7 @@ form input::placeholder{
 }
 
 .checkbox p{
-    font-size: 20px;
+    font-size: 1em;
     color: white;
 }
 
@@ -84,6 +94,7 @@ form input::placeholder{
     outline: none;
     color: white;
     background-color: rgb(20, 191, 86);
+    font-size: 1em;
 }
 
 .signinbtn:hover{
@@ -93,7 +104,7 @@ form input::placeholder{
 #forgotpassword{
     text-decoration: none;
     color: rgb(196, 195, 195);
-    font-size: 20px;
+    font-size: 1em;
 }
 
 #forgotpassword:hover{
