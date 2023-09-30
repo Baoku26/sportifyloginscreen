@@ -7,24 +7,30 @@
 }
 
 body{
+    /* outline: 1px black solid; */
     font-family: 'Poppins', sans-serif;
     /* font-family: 'Roboto', sans-serif;
     font-family: 'Source Code Pro', monospace;
     font-family: 'Space Mono', monospace;
     font-family: 'Tajawal', sans-serif; */
+    background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.674)), url(/imgs/elvis-presley-1482026.jpg)  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
 }
 
 #logo{
-    width: 150px;
+    width: 151px;
     /* outline: 1px black solid; */
     margin: 2em 0;
 }
 
 .box{
-    background-color: #2D2F32;
+    background-color: #2d2f32dc;
     width: 90%;
     text-align: center;
-    margin: 3rem auto;
+    margin: 5rem auto;
     padding: 5%  2rem;
     border-radius: .7em;
 }
@@ -108,7 +114,7 @@ form input::placeholder{
 }
 
 #forgotpassword:hover{
-    color: white;
+    color: rgba(255, 255, 255, 0.963);
 }
 
 .mf{
@@ -116,9 +122,15 @@ form input::placeholder{
 }
 
 @media(min-width: 710px){
+
+    body{
+        overflow-y: hidden;
+    }
+
     .box{
-        width: 550px;
-        margin: 3rem auto;
+        width: 450px;
+        margin: 4rem auto;
+        padding: 1%  2rem;
     }
 }
 
